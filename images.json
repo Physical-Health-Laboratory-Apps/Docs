@@ -1,0 +1,80 @@
+{
+    "id": "0",
+    "title": "",
+    "image": ""
+    "type": ""
+    "exercises": [
+        {
+            "title": ""
+            "startPosition": ""
+            "guide": ""
+            "impactArea": ""
+            "recommendations": ""
+            "images": []
+        }
+    ]
+}
+
+
+enum TrainType: String, CaseIterable {
+    case warmup = "Разминка"
+    case spinal = "Спина"
+    case tractions = "Вытяжения"
+    case extraBlock = "Дополнительный блок"
+    case legs = "Ноги"
+    case arms = "Руки"
+    case combiBlock = "Комби блок"
+}
+
+
+
+
+Тут править:
+
+
+[
+    {
+        "id": "1",
+        "title": "Наклонная доска",
+        "image": ""
+        "type": "Разминка"
+        "exercises": [
+            {
+                "title": "На спине по одной ноге"
+                "startPosition": "Лежа на спине, взяться за ручки, выпрямить руки. Ноги вместе, носочки на себя."
+                "guide": "Согнуть одну ногу в коленном суставе, подтянуть к животу. Далее вернуть ногу в исходное положении. "
+                "impactArea": "брюшной пресс, тазобедренные, коленные, галеносторные суставы, вытяжение грудного и поясничного отделов позвоночника."
+                "recommendations": "Hе расслаблять стопу, не делать резких движений ногой. "
+                "images": []
+            },
+            
+            {
+                "title": ""
+                "startPosition": ""
+                "guide": ""
+                "impactArea": ""
+                "recommendations": ""
+                "images": []
+            }
+            
+        ]
+    },
+    
+    {
+        "id": "2",
+        "title": "",
+        "image": ""
+        "type": ""
+        "exercises": [
+            {
+                "title": ""
+                "startPosition": ""
+                "guide": ""
+                "impactArea": ""
+                "recommendations": ""
+                "images": ""
+            }
+        ]
+    }
+]
+
