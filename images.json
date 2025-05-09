@@ -1,38 +1,5 @@
-{
-    "id": "0",
-    "title": "",
-    "image": ""
-    "type": ""
-    "exercises": [
-        {
-            "title": ""
-            "startPosition": ""
-            "guide": ""
-            "impactArea": ""
-            "recommendations": ""
-            "images": []
-        }
-    ]
-}
-
-
-enum TrainType: String, CaseIterable {
-    case warmup = "Разминка"
-    case spinal = "Спина"
-    case tractions = "Вытяжения"
-    case extraBlock = "Дополнительный блок"
-    case legs = "Ноги"
-    case arms = "Руки"
-    case combiBlock = "Комби блок"
-}
-
-
-
-
-Тут править:
-
-
-[
+{ 
+    "trains": [
     {
         "id": "1",
         "title": "Наклонная доска",
@@ -77,4 +44,4 @@ enum TrainType: String, CaseIterable {
         ]
     }
 ]
-
+}
